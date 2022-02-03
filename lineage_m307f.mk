@@ -27,15 +27,15 @@ TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
-## Inherit some common AOSP stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+## Inherit some common Lineage stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := m307f
-PRODUCT_NAME := aosp_m307f
+PRODUCT_NAME := lineage_m307f
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M307F
 PRODUCT_MANUFACTURER := samsung

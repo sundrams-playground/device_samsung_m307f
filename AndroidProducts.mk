@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_m307f.mk
+    $(LOCAL_DIR)/lineage_m307f.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_m307f-eng \
-    aosp_m307f-user \
-    aosp_m307f-userdebug
+    lineage_m307f-eng \
+    lineage_m307f-user \
+    lineage_m307f-userdebug
