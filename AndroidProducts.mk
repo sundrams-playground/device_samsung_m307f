@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_m307f.mk
+    $(LOCAL_DIR)/dot_m307f.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_m307f-eng \
-    aosp_m307f-user \
-    aosp_m307f-userdebug
+    dot_m307f-eng \
+    dot_m307f-user \
+    dot_m307f-userdebug
