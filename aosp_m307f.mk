@@ -23,7 +23,6 @@ $(call inherit-product, device/samsung/m307f/device.mk)
 
 ## Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
@@ -31,11 +30,11 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/pb/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := m307f
-PRODUCT_NAME := lineage_m307f
+PRODUCT_NAME := aosp_m307f
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M307F
 PRODUCT_MANUFACTURER := samsung
