@@ -17,12 +17,13 @@
 DEVICE_PATH := device/samsung/m21
 
 # Inherit from the common tree
-include device/samsung/universal9611-common/BoardConfigCommon.mk
+include device/samsung/universal9611-common/BoardConfig-P.mk
+
 # Inherit optional vendor BoardConfig
 -include vendor/samsung/m21/BoardConfigVendor.mk
 
 # OTA Asserts
-TARGET_OTA_ASSERT_DEVICE := m21,m21dd,m21nsxx
+TARGET_OTA_ASSERT_DEVICE := m30s,m307fn,m307f
 
 ## Partitions Sizes
 BOARD_BOOTIMAGE_PARTITION_SIZE := 61865984
